@@ -17,6 +17,11 @@ import jakarta.transaction.Transactional;
 import my.edu.utem.ftmk.workshop2.restpkums.model.Appointment;
 import my.edu.utem.ftmk.workshop2.restpkums.repository.AppointmentRepository;
 
+/**
+ * This is the appointment controller class
+ * @author User
+ *
+ */
 @RestController
 @RequestMapping("/appointment")
 public class AppointmentController {
